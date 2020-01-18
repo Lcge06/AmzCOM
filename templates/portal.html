@@ -1,0 +1,22 @@
+{% extends 'base.html' %}
+
+{% block body %}
+<div class="panel col-md-4 col-lg-push-4" style="margin-top: 50px">
+    <div class="panel-heading">
+        <h3 class="panel-title text-center">欢迎使用AMZ01管理系统</h3>
+    </div>
+    <div class="panel-body ">
+        <div class="list-group">
+            <a href="/xadmin/" class="list-group-item active ">
+                <h4 class="list-group-item-heading text-thin">管理入口</h4>
+                <p class="list-group-item-text">管理人员通过该入口可以查看/修改产品 </p>
+            </a>
+            <a href="{% url 'product_list' %}" class="list-group-item ">
+                <h4 class="list-group-item-heading text-thin">产品入口</h4>
+                <p class="list-group-item-text">管理人员通过该入口可以查看产品设计情况 </p>
+            </a>
+        </div>
+
+    </div>
+</div>
+{% endblock %}

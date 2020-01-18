@@ -1,0 +1,12 @@
+{% block breadcrumb %}
+    <div style="font-size: 20px">
+        <ol class="breadcrumb">
+            <li><a href="{% url page_inf.url.home %}">{{ page_inf.home }}</a></li>
+            <li><a href="{% url 'product_list' %}">{{ page_inf.table }}</a></li>
+            {% if page_inf.detail %}
+                <li><a href="#">{{ page_inf.detail }}</a></li>{% endif %}
+        </ol>
+
+    </div>
+
+{% endblock %}

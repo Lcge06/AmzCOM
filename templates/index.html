@@ -1,0 +1,402 @@
+{% extends 'base.html' %}
+
+{% load ymx01_tags %}
+
+{% block body %}
+    <div id="container" class="effect mainnav-lg">
+
+        <!--NAVBAR-->
+        <!--===================================================-->
+        <header id="navbar">
+            <div id="navbar-container" class="boxed">
+
+                <!--Brand logo & name-->
+                <!--================================-->
+                <div class="navbar-header">
+                    <a href="#" class="navbar-brand">
+                        <img src="/static/img/logo.png" alt="Nifty Logo" class="brand-icon">
+                        <div class="brand-title">
+                            <span class="brand-text">LeeFan AMZ</span>
+                        </div>
+                    </a>
+                </div>
+                <!--================================-->
+                <!--End brand logo & name-->
+
+
+                <!--Navbar Dropdown-->
+                <!--================================-->
+                <div class="navbar-content clearfix">
+                    <ul class="nav navbar-top-links pull-left">
+
+                        <!--Navigation toogle button-->
+                        <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+                        <li class="tgl-menu-btn">
+                            <a class="mainnav-toggle" href="#">
+                                <i class="fa fa-navicon fa-lg"></i>
+                            </a>
+                        </li>
+                        <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+                        <!--End Navigation toogle button-->
+
+
+                    </ul>
+                    <ul class="nav navbar-top-links pull-right">
+
+                        <!--User dropdown-->
+                        <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+                        <li id="dropdown-user" class="dropdown">
+                            <a href="#" data-toggle="dropdown" class="dropdown-toggle text-right">
+								<span class="pull-right">
+									<img class="img-circle img-user media-object" src="/static/img/av1.png"
+                                         alt="Profile Picture">
+								</span>
+                                <div class="username hidden-xs">{{ request.user.username }}</div>
+                            </a>
+
+
+                            <div class="dropdown-menu dropdown-menu-md dropdown-menu-right with-arrow panel-default">
+
+                                <!-- Dropdown heading  -->
+                                <!-- Dropdown footer -->
+                                <div class="pad-all text-right">
+                                    <a href="{% url 'ymx01_logout' %}" class="btn btn-primary">
+                                        <i class="fa fa-sign-out fa-fw"></i> 退出
+                                    </a>
+                                </div>
+                            </div>
+                        </li>
+                        <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+                        <!--End user dropdown-->
+
+                    </ul>
+                </div>
+                <!--================================-->
+                <!--End Navbar Dropdown-->
+
+            </div>
+        </header>
+        <!--===================================================-->
+        <!--END NAVBAR-->
+
+        <div class="boxed">
+
+            <!--CONTENT CONTAINER-->
+            <!--===================================================-->
+            <div id="content-container">
+
+
+                <!--Page Title-->
+                <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+                {% include 'ymx01/blocks/page_title.html' %}
+                <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+                <!--End page title-->
+                 <!--Breadcrumb-->
+                {% include 'ymx01/blocks/page_breadcrumb.html' %}
+                <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+                <!--End breadcrumb-->
+
+                <!--Page content-->
+                <!--===================================================-->
+                <div id="page-content">
+                    {% block page-content %}
+
+                    {% endblock %}
+                </div>
+                <!--===================================================-->
+                <!--End page content-->
+
+
+            </div>
+            <!--===================================================-->
+            <!--END CONTENT CONTAINER-->
+
+
+            <!--MAIN NAVIGATION-->
+            <!--===================================================-->
+            <nav id="mainnav-container">
+                <div id="mainnav">
+
+                    <!--Shortcut buttons-->
+                    <!--================================-->
+
+                    <!--================================-->
+                    <!--End shortcut buttons-->
+
+
+                    <!--Menu-->
+                    <!--================================-->
+                    <div id="mainnav-menu-wrap">
+                        <div class="nano">
+
+                            <div class="nano-content">
+                                {% block left-side-menu %}
+
+                                    <ul id="mainnav-menu" class="list-group">
+
+                                        <!--Category name-->
+
+                                        {% load_menus request as menus %}
+                                        {% for m in menus %}
+                                            {% if not m.sub_menus.select_related %}
+                                                <li class="">
+                                                    <a href="
+
+                                                            {% if m.url_type == 0 %}{% url m.url_name %}{% else %}{{ m.url_name }}{% endif %}">
+                                                        <i class="fa fa-plane"></i>
+                                                        <span class="menu-title">{{ m.name }}</span>
+                                                    </a>
+                                                </li>
+                                            {% else %}
+                                                <li class="">
+                                                    <a href="
+
+                                                            {% if m.url_type == 0 %}{% url m.url_name %}{% else %}{{ m.url_name }}{% endif %}">
+                                                        <i class="fa fa-th"></i>
+                                                        <span class="menu-title">{{ m.name }}</span>
+                                                        <i class="arrow"></i>
+                                                    </a>
+
+                                                    <!--Submenu-->
+                                                    <ul class="collapse">
+                                                        {% for sub_menu in m.sub_menus.select_related %}
+                                                            <li><a href="
+
+                                                                    {% if sub_menu.url_type == 0 %}{% url sub_menu.url_name sub_menu %}{% else %}{{ sub_menu.url_name }}{% endif %}">{{ sub_menu.name }}</a>
+                                                            </li>
+                                                        {% endfor %}
+
+                                                    </ul>
+                                                </li>
+                                            {% endif %}
+                                        {% endfor %}
+                                        <!--Menu list item-->
+
+
+                                    </ul>
+
+
+                                {% endblock %}
+                            </div>
+
+                        </div>
+                    </div>
+                    <!--================================-->
+                    <!--End menu-->
+
+                </div>
+            </nav>
+            <!--===================================================-->
+            <!--END MAIN NAVIGATION-->
+
+            <!--ASIDE-->
+            <!--===================================================-->
+            <aside id="aside-container">
+                <div id="aside">
+                    <div class="nano">
+                        <div class="nano-content">
+
+                            <!--Nav tabs-->
+                            <!--================================-->
+                            <ul class="nav nav-tabs nav-justified">
+                                <li class="active">
+                                    <a href="#demo-asd-tab-1" data-toggle="tab">
+                                        <i class="fa fa-comments"></i>
+                                        <span class="badge badge-purple">7</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#demo-asd-tab-2" data-toggle="tab">
+                                        <i class="fa fa-info-circle"></i>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#demo-asd-tab-3" data-toggle="tab">
+                                        <i class="fa fa-wrench"></i>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#demo-asd-tab-4" data-toggle="tab">
+                                        <i class="fa fa-shield"></i>
+                                        <span class="label label-success">New</span>
+                                    </a>
+                                </li>
+                            </ul>
+                            <!--================================-->
+                            <!--End nav tabs-->
+
+
+                            <!-- Tabs Content -->
+                            <!--================================-->
+                            <div class="tab-content">
+
+                                <!--First tab-->
+                                <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+                                <div class="tab-pane fade in active" id="demo-asd-tab-1">
+                                    <h4 class="pad-hor text-thin">
+                                        First tab
+                                    </h4>
+                                    <div class="pad-all">
+
+                                        Lorem ipsum dolor sit amet, consectetuer adipiscing elit,
+                                        sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat
+                                        volutpat.
+                                        Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit
+                                        lobortis nisl
+                                        ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit
+                                        in vulputate
+                                        velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at
+                                        vero eros et accumsan
+                                        et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis
+                                        dolore te feugait nulla facilisi.
+
+                                    </div>
+
+                                </div>
+                                <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+                                <!--End first tab-->
+
+
+                                <!--Second tab-->
+                                <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+                                <div class="tab-pane fade" id="demo-asd-tab-2">
+                                    <h4 class="pad-hor text-thin">
+                                        Second tab
+                                    </h4>
+                                    <div class="pad-all">
+
+                                        Lorem ipsum dolor sit amet, consectetuer adipiscing elit,
+                                        sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat
+                                        volutpat.
+                                        Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit
+                                        lobortis nisl
+                                        ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit
+                                        in vulputate
+                                        velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at
+                                        vero eros et accumsan
+                                        et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis
+                                        dolore te feugait nulla facilisi.
+
+                                    </div>
+                                </div>
+                                <!--End second tab-->
+                                <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+
+
+                                <!--Third tab-->
+                                <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+                                <div class="tab-pane fade" id="demo-asd-tab-3">
+                                    <h4 class="pad-hor text-thin">
+                                        Third tab
+                                    </h4>
+                                    <div class="pad-all">
+
+                                        Lorem ipsum dolor sit amet, consectetuer adipiscing elit,
+                                        sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat
+                                        volutpat.
+                                        Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit
+                                        lobortis nisl
+                                        ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit
+                                        in vulputate
+                                        velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at
+                                        vero eros et accumsan
+                                        et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis
+                                        dolore te feugait nulla facilisi.
+
+                                    </div>
+
+                                </div>
+                                <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+                                <!--Third tab-->
+
+                                <!--Fourth tab-->
+                                <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+                                <div class="tab-pane fade" id="demo-asd-tab-4">
+                                    <h4 class="pad-hor text-thin">
+                                        Fourth tab
+                                    </h4>
+                                    <div class="pad-all">
+
+                                        Lorem ipsum dolor sit amet, consectetuer adipiscing elit,
+                                        sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat
+                                        volutpat.
+                                        Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit
+                                        lobortis nisl
+                                        ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit
+                                        in vulputate
+                                        velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at
+                                        vero eros et accumsan
+                                        et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis
+                                        dolore te feugait nulla facilisi.
+
+                                    </div>
+
+                                </div>
+                                <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+                                <!--Third tab (Settings)-->
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </aside>
+            <!--===================================================-->
+            <!--END ASIDE-->
+
+        </div>
+
+
+        <!-- FOOTER -->
+        <!--===================================================-->
+        <footer id="footer">
+
+            <!-- Visible when footer positions are fixed -->
+            <!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
+            <div class="show-fixed pull-right">
+                <ul class="footer-list list-inline">
+                    <li>
+                        <p class="text-sm">SEO Proggres</p>
+                        <div class="progress progress-sm progress-light-base">
+                            <div style="width: 80%" class="progress-bar progress-bar-danger"></div>
+                        </div>
+                    </li>
+
+                    <li>
+                        <p class="text-sm">Online Tutorial</p>
+                        <div class="progress progress-sm progress-light-base">
+                            <div style="width: 80%" class="progress-bar progress-bar-primary"></div>
+                        </div>
+                    </li>
+                    <li>
+                        <button class="btn btn-sm btn-dark btn-active-success">Checkout</button>
+                    </li>
+                </ul>
+            </div>
+
+
+            <!-- Visible when footer positions are static -->
+            <!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
+
+            <!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
+            <!-- Remove the class name "show-fixed" and "hide-fixed" to make the content always appears. -->
+            <!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
+
+
+        </footer>
+        <!--===================================================-->
+        <!-- END FOOTER -->
+
+
+        <!-- SCROLL TOP BUTTON -->
+        <!--===================================================-->
+        <button id="scroll-top" class="btn"><i class="fa fa-chevron-up"></i></button>
+        <!--===================================================-->
+
+
+    </div>
+    <!--===================================================-->
+    <!-- END OF CONTAINER -->
+
+
+
+{% endblock %}

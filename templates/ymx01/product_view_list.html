@@ -1,0 +1,169 @@
+{% extends 'index.html' %}
+{% load ymx01_tags %}
+
+{% block page-content %}
+
+    <div class="panel col-md-10">
+        <div class="panel-body">
+            {% if errors %}
+                <div>
+                    <h3 style="color: red;">Below errors happened during updating data!</h3>
+                    {% for form_errs in errors %}
+
+                        <ul>
+                            <li style="color: red;font-weight: bold">{{ form_errs.1 }}</li>
+                            {% for k,err in form_errs.0.items %}
+                                <li>{{ k }},{{ err }}</li>
+                            {% endfor %}
+                        </ul>
+                    {% endfor %}
+                </div>
+            {% endif %}
+
+            <div style="margin-top: 20px" class="table-responsive">
+                <table class="table table-hover">
+                    <thead>
+                    </thead>
+                    <tbody id="model_table_data">
+
+                    {% for product in table_obj.query_sets %}
+                        {% include 'ymx01/product_view_template.html' %}
+                    {% endfor %}
+
+
+                    </tbody>
+                    <footer>
+                        <tr>
+                            <td colspan="12" class="footable-visible">
+                                <div class="pagination">
+
+                                    <nav>
+                                        <p>共{{ paginator.count }}条数据</p>
+                                        <ul class="pagination">
+                                            {% if table_obj.query_sets.has_previous %}
+                                                <li class="disabled">
+                                                    <a href="{{ request.get_full_path }}?page={{ table_obj.query_sets.previous_page_number }}"
+                                                       aria-label="Previous"><span aria-hidden="true">&laquo;</span></a>
+                                                </li>
+                                            {% endif %}
+                                            {% for p_num in paginator.page_range %}
+                                                {% render_page_num request table_obj.query_sets p_num %}
+                                            {% endfor %}
+                                            {% if customer_list.has_next %}
+                                                <li>
+                                                    <a href="{{ request.get_full_path }}?page={{ table_obj.query_sets.next_page_number }}"
+                                                       aria-label="Next">
+                                                        <span aria-hidden="true">&raquo;</span>
+                                                    </a>
+                                                </li>
+                                            {% endif %}
+                                        </ul>
+                                    </nav>
+
+                                </div>    <!--end pagination-->
+                                {% if table_obj.list_editable %}
+                                    <div>
+                                        <form method="post" onsubmit="return PrepareFormData(this)">{% csrf_token %}
+                                            <button class="btn btn-info pull-right">Save</button>
+
+                                        </form>
+                                    </div>
+                                {% endif %}
+                            </td>
+
+                        </tr>
+                    </footer>
+                </table>
+            </div>
+            {% include 'ymx01/filters/accessories_filter.html' %}
+
+        </div>
+
+
+    </div>
+    <div class="panel-body col-md-2">
+                {% if  table_obj.list_filter %}
+                    <form>
+                        <div class="row">
+{#                            {% include 'myadmin/filter_search_box.html' %}#}
+                            {% for filter_column in table_obj.list_filter %}
+                                <div class="col-md-12" style="margin-bottom: 5px">
+                                    {{ filter_column.verbose_name }} &nbsp;
+                                    <i style="cursor: pointer" data-target="#modal-dialog" data-toggle="modal"
+                                       class="fa fa-search" aria-hidden="true"
+                                       onclick="PrepareFilterSearch('{{ filter_column.column_name }}')"></i>
+                                    <select data-tag="{{ filter_column.column_name }}"
+                                            name="{{ filter_column.column_name }}" class="form-control">
+                                        {% for choice in filter_column.choices %}
+                                            {% if filter_column.selected == choice.0|to_string %}
+                                                <option value="{{ choice.0 }}" selected>{{ choice.1 }}</option>
+                                            {% else %}
+                                                <option value="{{ choice.0 }}">{{ choice.1 }}</option>
+                                            {% endif %}
+                                        {% endfor %}
+                                    </select>
+
+                                </div>
+                            {% endfor %}
+                            <div class="col-md-3">
+                                <div style="visibility:hidden">过滤</div>
+                                <input type="submit" class="btn btn-success" value="开始过滤">
+                            </div>
+                        </div>
+                    </form>
+                {% endif %}
+            </div>
+
+
+    <script>
+
+
+        function PrepareFormData(form_ele) {
+            var form_data = [];
+            $("#model_table_data tr").each(function () {
+                var obj_id = $(this).children().first().find("input").val();
+
+                console.log(obj_id);
+                if (obj_id) { //table obj row
+                    var row_data = {};//all columns need to be updated
+                    $(this).find("[data-tag='editable']").each(function () {
+                        //console.log($(this).attr("name") + "----" +$(this).val())
+                        row_data[$(this).attr("name")] = $(this).val();
+                    });//end find each
+                    row_data['id'] = obj_id;
+
+                    form_data.push(row_data);
+                }
+
+            });//end each
+
+            console.log(form_data)
+
+            var ele = '<input type="hidden" name="editable_data" value=' + JSON.stringify(form_data) + ' >';
+            $(form_ele).append(ele);
+
+            return true;
+        }
+
+    </script>
+{% endblock %}
+
+{% block bottom-js %}
+    <script>
+        $(document).ready(function () {
+
+            $('input[type="checkbox"][data-tag="editable"]').change(function () {
+                if (this.checked) {
+                    // do something when checked
+                    console.log("checked...")
+                    $(this).val("True")
+
+                } else {
+                    console.log("unchekc")
+                    $(this).val("False")
+                }
+            });
+
+        });//end doc ready
+    </script>
+{% endblock %}

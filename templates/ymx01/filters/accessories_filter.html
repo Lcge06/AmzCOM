@@ -1,0 +1,28 @@
+{% load ymx01_tags %}
+<!--辅料选择区-->
+<div class="panel-body">
+    <form method="post">{% csrf_token %}
+        <div class="row">
+            {% for filter_column in acc_list %}
+                <div class="col-md-3">
+                    {{ filter_column.acc_type }}
+                    <select data-tag="{{ filter_column.acc_type }}" name="{{ filter_column.acc_type }}" class="form-control">
+                        {% for choice in filter_column.choices %}
+                            {% if filter_column.selected == choice.0|to_string %}
+                                <option value="{{ choice.0 }}" selected>{{ choice.1 }}</option>
+                            {% else %}
+                                <option value="{{ choice.0 }}">{{ choice.1 }}</option>
+                            {% endif %}
+                        {% endfor %}
+                    </select>
+                </div>
+
+            {% endfor %}
+            <div class="col-md-3">
+                <div style="visibility:hidden">过滤</div>
+                <input type="submit" class="btn btn-success" name="_accessories_filter" value="开始过滤">
+            </div>
+        </div>
+
+    </form>
+</div>

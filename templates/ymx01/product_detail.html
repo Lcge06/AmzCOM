@@ -1,0 +1,34 @@
+{% extends 'index.html' %}
+{% load ymx01_tags %}
+
+{% block page-content %}
+    <div id="print_panel" class="panel">
+{#        <link href="/static/plugins/jQueryPrint/css/myPrint.css" rel="stylesheet">#}
+        <button type="button" class="btn btn-primary btn-lg avoid-this" data-toggle="modal" data-target="#print_modal">打印</button>
+        {% include 'ymx01/print_modal.html' %}
+        {% include 'ymx01/product_detail_template.html' %}
+    </div>
+
+<script>
+    function printHtml() {
+
+        $("#print_panel").print({
+                    //Use Global styles
+                    globalStyles : false,
+                    //Add link with attrbute media=print
+                    mediaPrint : true,
+                    //Print in a hidden iframe
+                    iframe : false,
+                    //Don't print this
+                    noPrintSelector : ".avoid-this",
+                    //Add this at top
+                    prepend : null,
+                    //Add this on bottom
+                    append : null,
+                    //Log to console when printing is done via a deffered callback
+                    //deferred: $.Deferred().done(function() { console.log('Printing done', arguments); })
+        });
+    }
+
+</script>
+{% endblock %}

@@ -1,0 +1,26 @@
+{% load ymx01_tags %}
+
+
+<div id="page-title">
+    {% block page-title %}
+        <h1 class="page-header text-overflow">{% block page-title-text %}{{ page_inf.title }}{% endblock %}</h1>
+
+        <!--Searchbox-->
+{#        {% block searchbox %}#}
+{#            <div class="searchbox">#}
+{#                <div class="input-group custom-search-form">#}
+{#                    <input type="text" class="form-control" placeholder="Search..">#}
+{#                    <span class="input-group-btn">#}
+{#                                    <button class="text-muted" type="button"><i class="fa fa-search"></i></button>#}
+{#                                </span>#}
+{#                </div>#}
+{#            </div>#}
+{#        {% endblock %}#}
+        {% block searchbox %}
+            {% if not page_inf.detail %}
+                {% load_search_element table_obj %}
+            {% endif %}
+        {% endblock %}
+{#        <div class="aside-left"></div>#}
+    {% endblock %}
+</div>

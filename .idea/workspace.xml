@@ -1,0 +1,1190 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="0b31c1e8-bbb2-4491-925b-21b51880903a" name="Default Changelist" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/AmzCOM$amzlib__1_.coverage" NAME="amzlib (1) Coverage Results" MODIFIED="1546584205490" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../AmzNet" />
+    <SUITE FILE_PATH="coverage/AmzCOM$inventory_now.coverage" NAME="inventory_now Coverage Results" MODIFIED="1546582472282" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ymx01/ymxcore/index" />
+    <SUITE FILE_PATH="coverage/AmzCOM$test.coverage" NAME="test Coverage Results" MODIFIED="1546583249322" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../test" />
+    <SUITE FILE_PATH="coverage/AmzCOM$amzlib.coverage" NAME="amzlib Coverage Results" MODIFIED="1546584225516" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ymx01/ymxcore/mws" />
+    <SUITE FILE_PATH="coverage/AmzCOM$Test__AmzLib.coverage" NAME="Test: AmzLib Coverage Results" MODIFIED="1543727208862" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/AmzCOM$inventory.coverage" NAME="inventory Coverage Results" MODIFIED="1544499836932" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ymx01/ymxcore" />
+    <SUITE FILE_PATH="coverage/AmzCOM$Test__ymx01_templatetags.coverage" NAME="Test: ymx01.templatetags Coverage Results" MODIFIED="1553951333702" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="db" type="feb32156:DbDataSourceImpl" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="db" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="db" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="main: schema" type="981a47c2:SqliteImplModel$Schema" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="DjangoConsoleOptions" custom-start-script="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)">
+    <option name="myCustomStartScript" value="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)" />
+  </component>
+  <component name="ExportToHTMLSettings">
+    <option name="OUTPUT_DIRECTORY" value="$PROJECT_DIR$/../AmzCOM\exportToHTML" />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="AmzCOM" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/order/resources.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="203">
+              <caret line="15" column="38" lean-forward="true" selection-start-line="15" selection-start-column="38" selection-end-line="15" selection-end-column="38" />
+              <folding>
+                <element signature="e#15#50#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ymx01/models.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="451">
+              <caret line="163" column="22" lean-forward="true" selection-start-line="163" selection-start-column="22" selection-end-line="163" selection-end-column="23" />
+              <folding>
+                <element signature="e#0#28#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="CSS File" />
+        <option value="HTML File" />
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>get_db_table_name</find>
+      <find>personal_password_reset</find>
+      <find>Menus</find>
+      <find>role</find>
+      <find>User</find>
+      <find>re</find>
+      <find>menus</find>
+      <find>mainnav-men</find>
+      <find>list-group</find>
+      <find>menu</find>
+      <find>ecConfig</find>
+      <find>_get_val_from_obj</find>
+      <find>PrepareFilterSearch</find>
+      <find>search-model-body</find>
+      <find>modal-dialog</find>
+      <find>data-target</find>
+      <find>rstrip</find>
+      <find>DoTheAction</find>
+      <find>admin_action_func</find>
+      <find>ymx01_index</find>
+      <find>Currently</find>
+      <find>split</find>
+      <find>&quot;on_delete&quot;</find>
+      <find>table_index</find>
+      <find>image_url</find>
+      <find>image</find>
+      <find>myadmin</find>
+      <find>men</find>
+      <find>pagination</find>
+      <find>picture</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>on_delete=models.CASCADE</replace>
+    </replaceStrings>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/templates/ymx01/app_index.html" />
+        <option value="$PROJECT_DIR$/extra_apps/xadmin/widgets.py" />
+        <option value="$PROJECT_DIR$/extra_apps/xadmin/sites.py" />
+        <option value="$PROJECT_DIR$/myadmin/templates/myadmin/table_obj_list.html" />
+        <option value="$PROJECT_DIR$/extra_apps/xadmin/templates/xadmin/views/model_list.html" />
+        <option value="$PROJECT_DIR$/extra_apps/xadmin/views/list.py" />
+        <option value="$PROJECT_DIR$/extra_apps/xadmin/templates/xadmin/includes/submit_line.html" />
+        <option value="$PROJECT_DIR$/ymx01/myadmin.py" />
+        <option value="$PROJECT_DIR$/templates/ymx01/product_list.html" />
+        <option value="$PROJECT_DIR$/extra_apps/xadmin/views/edit.py" />
+        <option value="$PROJECT_DIR$/ymx01/urls.py" />
+        <option value="$PROJECT_DIR$/templates/portal.html" />
+        <option value="$PROJECT_DIR$/ymx01/views.py" />
+        <option value="$PROJECT_DIR$/templates/ymx01/product_view_list_filter.html" />
+        <option value="$PROJECT_DIR$/extra_apps/xadmin/views/dashboard.py" />
+        <option value="$PROJECT_DIR$/templates/ymx01/product_detail.html" />
+        <option value="$PROJECT_DIR$/templates/ymx01/blocks/page_breadcrumb.html" />
+        <option value="$PROJECT_DIR$/templates/ymx01/blocks/page_title.html" />
+        <option value="$PROJECT_DIR$/templates/index.html" />
+        <option value="$PROJECT_DIR$/templates/base.html" />
+        <option value="$PROJECT_DIR$/templates/ymx01/blocks/model_list_nav_menu.html" />
+        <option value="$PROJECT_DIR$/AmzCOM/urls.py" />
+        <option value="$PROJECT_DIR$/ymx01/views/website.py" />
+        <option value="$PROJECT_DIR$/ymx01/views/product.py" />
+        <option value="$PROJECT_DIR$/ymx01/ymxcore/product_handler.py" />
+        <option value="$PROJECT_DIR$/templates/ymx01/test.py" />
+        <option value="$PROJECT_DIR$/ymx01/test.py" />
+        <option value="$PROJECT_DIR$/ymx01/tests.py" />
+        <option value="$PROJECT_DIR$/templates/ymx01/filters/accessories_filter.html" />
+        <option value="$PROJECT_DIR$/ymx01/templatetags/ymx01_tags.py" />
+        <option value="$PROJECT_DIR$/ymx01/ymxcore/sysinis.py" />
+        <option value="$PROJECT_DIR$/ymx01/tables.py" />
+        <option value="$PROJECT_DIR$/templates/ymx01/product_view_template.html" />
+        <option value="$PROJECT_DIR$/templates/ymx01/product_view_list.html" />
+        <option value="$PROJECT_DIR$/ymx01/views/views.py" />
+        <option value="$PROJECT_DIR$/ymx01/admin.py" />
+        <option value="$PROJECT_DIR$/ymx01/ymxcore/initsystem.py" />
+        <option value="$PROJECT_DIR$/ymx01/templatetags/product_tags.py" />
+        <option value="$PROJECT_DIR$/ymx01/models.py" />
+        <option value="$PROJECT_DIR$/templates/ymx01/product_detail_template.html" />
+        <option value="$PROJECT_DIR$/extra_apps/xadmin/templates/xadmin/excel/model_list.top_toolbar.import.html" />
+        <option value="$PROJECT_DIR$/extra_apps/xadmin/plugins/__init__.py" />
+        <option value="$PROJECT_DIR$/extra_apps/xadmin/adminx.py" />
+        <option value="$PROJECT_DIR$/ymx01/resources.py" />
+        <option value="$PROJECT_DIR$/extra_apps/xadmin/plugins/excel.py" />
+        <option value="$PROJECT_DIR$/ymx01/adminx.py" />
+        <option value="$PROJECT_DIR$/order/adminx.py" />
+        <option value="$PROJECT_DIR$/order/apps.py" />
+        <option value="$PROJECT_DIR$/AmzCOM/settings.py" />
+        <option value="$PROJECT_DIR$/order/models.py" />
+        <option value="$PROJECT_DIR$/order/resources.py" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-15" />
+    <option name="width" value="1302" />
+    <option name="height" value="741" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="AmzCOM" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AmzCOM" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="AmzCOM" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AmzCOM" type="462c0819:PsiDirectoryNode" />
+              <item name="AmzCOM" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="AmzCOM" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AmzCOM" type="462c0819:PsiDirectoryNode" />
+              <item name="order" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="AmzCOM" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AmzCOM" type="462c0819:PsiDirectoryNode" />
+              <item name="order" type="462c0819:PsiDirectoryNode" />
+              <item name="migrations" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="AmzCOM" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AmzCOM" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="AmzCOM" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AmzCOM" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+              <item name="import_export" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="AmzCOM" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AmzCOM" type="462c0819:PsiDirectoryNode" />
+              <item name="ymx01" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="AmzCOM" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AmzCOM" type="462c0819:PsiDirectoryNode" />
+              <item name="ymx01" type="462c0819:PsiDirectoryNode" />
+              <item name="migrations" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="sqlite" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="database.console.LAST_STATE" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/db.sqlite3" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\Program Files\Python\PythonPro\AmzCOM\order" />
+      <recent name="E:\Program Files\Python\PythonPro\AmzCOM\templates\ymx01" />
+      <recent name="E:\Program Files\Python\PythonPro\AmzCOM\static\js\ymx01" />
+      <recent name="E:\Program Files\Python\PythonPro\AmzCOM\static\css\ymx01" />
+      <recent name="E:\Program Files\Python\PythonPro\AmzCOM\templates" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Surface Pro 3\PycharmProjects\AmzCOM\templates\ymx01\blocks" />
+      <recent name="C:\Users\Surface Pro 3\PycharmProjects\AmzCOM\templates\ymx01" />
+      <recent name="C:\Users\Surface Pro 3\PycharmProjects\AmzCOM\ymx01\views" />
+      <recent name="D:\跨境\亚马逊\软件\DjangoPro\AmzCOM\templates\ymx01" />
+      <recent name="D:\programfile\PythonPro\DjangoPro\AmzCOM" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Django server.AmzCOM">
+    <configuration name="Test: ymx01.templatetags" type="DjangoTestsConfigurationType" temporary="true">
+      <module name="AmzCOM" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="TARGET" value="ymx01.templatetags" />
+      <option name="SETTINGS_FILE" value="" />
+      <option name="CUSTOM_SETTINGS" value="false" />
+      <option name="USE_OPTIONS" value="false" />
+      <option name="OPTIONS" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="DjangoTestsConfigurationType">
+      <module name="demo_app" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="TARGET" value="" />
+      <option name="SETTINGS_FILE" value="" />
+      <option name="CUSTOM_SETTINGS" value="false" />
+      <option name="USE_OPTIONS" value="false" />
+      <option name="OPTIONS" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="test.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/AmzCOM/test.html">
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="PyBehaveRunConfigurationType" factoryName="Behave">
+      <module name="demo_app" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="ADDITIONAL_ARGS" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="PyLettuceRunConfigurationType" factoryName="Lettuce">
+      <module name="demo_app" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="ADDITIONAL_ARGS" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="PythonConfigurationType" factoryName="Python">
+      <module name="demo_app" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="tests" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="AmzCOM" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="C:\Users\Surface Pro 3\AppData\Local\Programs\Python\Python37\python.exe" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/ymx01" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ymx01/tests.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="AmzCOM" type="Python.DjangoServer" factoryName="Django server">
+      <module name="AmzCOM" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+        <env name="DJANGO_SETTINGS_MODULE" value="AmzCOM.settings" />
+      </envs>
+      <option name="SDK_HOME" value="E:\Program Files\Python\Python37\python.exe" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="launchJavascriptDebuger" value="true" />
+      <option name="port" value="8000" />
+      <option name="host" value="127.0.0.1" />
+      <option name="additionalOptions" value="" />
+      <option name="browserUrl" value="http://127.0.0.1:8000/" />
+      <option name="runTestServer" value="false" />
+      <option name="runNoReload" value="false" />
+      <option name="useCustomRunCommand" value="false" />
+      <option name="customRunCommand" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="XadminDemo" type="Python.DjangoServer" factoryName="Django server">
+      <module name="AmzCOM" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="C:\Users\Surface Pro 3\AppData\Local\Programs\Python\Python37\python.exe" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="launchJavascriptDebuger" value="false" />
+      <option name="port" value="8000" />
+      <option name="host" value="127.0.0.1" />
+      <option name="additionalOptions" value="" />
+      <option name="browserUrl" value="http://127.0.0.1:8000/" />
+      <option name="runTestServer" value="false" />
+      <option name="runNoReload" value="false" />
+      <option name="useCustomRunCommand" value="false" />
+      <option name="customRunCommand" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="Python.FlaskServer" factoryName="Flask server">
+      <module name="demo_app" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="launchJavascriptDebuger" value="false" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="Tox" factoryName="Tox">
+      <module name="demo_app" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Doctests">
+      <module name="demo_app" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Unittests">
+      <module name="demo_app" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Django server.XadminDemo" />
+      <item itemvalue="Django server.AmzCOM" />
+      <item itemvalue="Django tests.Test: ymx01.templatetags" />
+      <item itemvalue="JavaScript Debug.test.html" />
+      <item itemvalue="Python.tests" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.tests" />
+        <item itemvalue="Django tests.Test: ymx01.templatetags" />
+        <item itemvalue="JavaScript Debug.test.html" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="0b31c1e8-bbb2-4491-925b-21b51880903a" name="Default Changelist" comment="" />
+      <created>1543332305090</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1543332305090</updated>
+      <workItem from="1543332308675" duration="2860000" />
+      <workItem from="1543335249199" duration="2126000" />
+      <workItem from="1543337389693" duration="855000" />
+      <workItem from="1543577401343" duration="46000" />
+      <workItem from="1543594024785" duration="791000" />
+      <workItem from="1543673514054" duration="11078000" />
+      <workItem from="1543725269257" duration="5177000" />
+      <workItem from="1543733060580" duration="4377000" />
+      <workItem from="1543769149561" duration="8228000" />
+      <workItem from="1543811690669" duration="4444000" />
+      <workItem from="1543836265137" duration="3627000" />
+      <workItem from="1543844714368" duration="9190000" />
+      <workItem from="1544005546636" duration="16875000" />
+      <workItem from="1544065478504" duration="3980000" />
+      <workItem from="1544069599307" duration="2414000" />
+      <workItem from="1544072676033" duration="3325000" />
+      <workItem from="1544106395976" duration="1257000" />
+      <workItem from="1544108228511" duration="5059000" />
+      <workItem from="1544115236402" duration="3939000" />
+      <workItem from="1544119298441" duration="378000" />
+      <workItem from="1544156078727" duration="3127000" />
+      <workItem from="1544198537441" duration="10318000" />
+      <workItem from="1544273593551" duration="158000" />
+      <workItem from="1544299152857" duration="3969000" />
+      <workItem from="1544303966176" duration="3802000" />
+      <workItem from="1544459100010" duration="2101000" />
+      <workItem from="1544498109364" duration="4452000" />
+      <workItem from="1544548780319" duration="1457000" />
+      <workItem from="1544585082860" duration="3322000" />
+      <workItem from="1544591475141" duration="2540000" />
+      <workItem from="1544674187575" duration="2129000" />
+      <workItem from="1544727734975" duration="8941000" />
+      <workItem from="1544738083849" duration="1821000" />
+      <workItem from="1544931307104" duration="4283000" />
+      <workItem from="1545017208938" duration="83000" />
+      <workItem from="1545017553945" duration="2887000" />
+      <workItem from="1545320812050" duration="1477000" />
+      <workItem from="1545494848521" duration="657000" />
+      <workItem from="1545532445002" duration="2612000" />
+      <workItem from="1545588034696" duration="7200000" />
+      <workItem from="1545922241004" duration="5464000" />
+      <workItem from="1546016395550" duration="11345000" />
+      <workItem from="1546580225568" duration="1951000" />
+      <workItem from="1546582245418" duration="3129000" />
+      <workItem from="1546764940616" duration="1973000" />
+      <workItem from="1546769028509" duration="1641000" />
+      <workItem from="1546790638684" duration="2977000" />
+      <workItem from="1546954737726" duration="291000" />
+      <workItem from="1547077505016" duration="738000" />
+      <workItem from="1547423183088" duration="198000" />
+      <workItem from="1550843033595" duration="7317000" />
+      <workItem from="1550890718105" duration="1273000" />
+      <workItem from="1550933750897" duration="3378000" />
+      <workItem from="1550937204584" duration="203000" />
+      <workItem from="1550938105920" duration="277000" />
+      <workItem from="1550984223353" duration="12832000" />
+      <workItem from="1551165331272" duration="481000" />
+      <workItem from="1551263834492" duration="1151000" />
+      <workItem from="1551265253732" duration="3064000" />
+      <workItem from="1551337455393" duration="5586000" />
+      <workItem from="1551359113726" duration="3710000" />
+      <workItem from="1551362844397" duration="1602000" />
+      <workItem from="1551433866260" duration="56000" />
+      <workItem from="1551444423649" duration="4371000" />
+      <workItem from="1551491392224" duration="5194000" />
+      <workItem from="1551509631941" duration="3020000" />
+      <workItem from="1551578947765" duration="3488000" />
+      <workItem from="1551672136063" duration="2615000" />
+      <workItem from="1552039023941" duration="2184000" />
+      <workItem from="1552223541201" duration="33000" />
+      <workItem from="1552223614518" duration="8809000" />
+      <workItem from="1552278556139" duration="1080000" />
+      <workItem from="1552476986676" duration="11856000" />
+      <workItem from="1552744193387" duration="2251000" />
+      <workItem from="1552788006175" duration="8467000" />
+      <workItem from="1553005023700" duration="2181000" />
+      <workItem from="1553007444603" duration="147000" />
+      <workItem from="1553089656560" duration="2928000" />
+      <workItem from="1553094051090" duration="1226000" />
+      <workItem from="1553175068654" duration="6828000" />
+      <workItem from="1553235562467" duration="3661000" />
+      <workItem from="1553239323088" duration="4366000" />
+      <workItem from="1553568797164" duration="391000" />
+      <workItem from="1553607530961" duration="236000" />
+      <workItem from="1553861071577" duration="2217000" />
+      <workItem from="1553948347668" duration="7167000" />
+      <workItem from="1554179267254" duration="3214000" />
+      <workItem from="1554258300381" duration="3104000" />
+      <workItem from="1554276098323" duration="7619000" />
+      <workItem from="1554287733786" duration="2137000" />
+      <workItem from="1554290157798" duration="1390000" />
+      <workItem from="1554291558660" duration="9432000" />
+      <workItem from="1555051833365" duration="809000" />
+      <workItem from="1555052792896" duration="2661000" />
+      <workItem from="1555079457888" duration="3406000" />
+      <workItem from="1555373683347" duration="116000" />
+      <workItem from="1555375029136" duration="6976000" />
+      <workItem from="1555395039304" duration="3619000" />
+      <workItem from="1555419056149" duration="6157000" />
+      <workItem from="1555458414239" duration="109000" />
+      <workItem from="1555490409397" duration="1071000" />
+      <workItem from="1555505911215" duration="3486000" />
+      <workItem from="1555509767145" duration="296000" />
+      <workItem from="1555510977121" duration="972000" />
+      <workItem from="1555543404652" duration="1278000" />
+      <workItem from="1555596268661" duration="1355000" />
+      <workItem from="1556107791843" duration="742000" />
+      <workItem from="1556109674947" duration="5960000" />
+      <workItem from="1557755045038" duration="189000" />
+      <workItem from="1557999019521" duration="3686000" />
+      <workItem from="1558098168131" duration="2942000" />
+      <workItem from="1558145687076" duration="3678000" />
+      <workItem from="1558190722888" duration="2866000" />
+      <workItem from="1558229185320" duration="4819000" />
+      <workItem from="1558265294517" duration="9259000" />
+      <workItem from="1558335333889" duration="1956000" />
+      <workItem from="1558413028948" duration="2166000" />
+      <workItem from="1558442102028" duration="1011000" />
+      <workItem from="1558443126733" duration="5396000" />
+      <workItem from="1558450799422" duration="439000" />
+      <workItem from="1558451409880" duration="506000" />
+      <workItem from="1558523051291" duration="2982000" />
+      <workItem from="1558526095639" duration="7356000" />
+      <workItem from="1558534250146" duration="989000" />
+      <workItem from="1558577808620" duration="2053000" />
+      <workItem from="1558581265101" duration="5259000" />
+      <workItem from="1558666304338" duration="3079000" />
+      <workItem from="1558693009510" duration="8861000" />
+      <workItem from="1558774290591" duration="1500000" />
+      <workItem from="1558855052654" duration="8925000" />
+      <workItem from="1558925058019" duration="1025000" />
+      <workItem from="1559026327626" duration="1885000" />
+      <workItem from="1559112626323" duration="8080000" />
+      <workItem from="1559189038349" duration="5223000" />
+      <workItem from="1559200450008" duration="3668000" />
+      <workItem from="1559205944718" duration="1152000" />
+      <workItem from="1578578996920" duration="5492000" />
+      <workItem from="1578609183645" duration="394000" />
+      <workItem from="1578812559300" duration="353000" />
+      <workItem from="1578833366173" duration="917000" />
+      <workItem from="1578834964013" duration="6333000" />
+      <workItem from="1578918057861" duration="5886000" />
+      <workItem from="1578927298240" duration="1581000" />
+      <workItem from="1578928959360" duration="269000" />
+      <workItem from="1579002506811" duration="609000" />
+      <workItem from="1579003123624" duration="1191000" />
+      <workItem from="1579004403826" duration="6945000" />
+      <workItem from="1579011630924" duration="418000" />
+      <workItem from="1579012055615" duration="351000" />
+      <workItem from="1579012741712" duration="1578000" />
+      <workItem from="1579177718865" duration="422000" />
+      <workItem from="1579351176507" duration="887000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="Test__AmzLib - 2018.12.02 at 13h 06m 54s.xml">
+      <configuration name="Test: AmzLib" configurationId="DjangoTestsConfigurationType" />
+    </history-entry>
+    <history-entry file="Test__ymx01_templatetags - 2019.03.30 at 20h 24m 20s.xml">
+      <configuration name="Test: ymx01.templatetags" configurationId="DjangoTestsConfigurationType" />
+    </history-entry>
+    <history-entry file="Test__ymx01_templatetags - 2019.03.30 at 20h 27m 38s.xml">
+      <configuration name="Test: ymx01.templatetags" configurationId="DjangoTestsConfigurationType" />
+    </history-entry>
+    <history-entry file="Test__ymx01_templatetags - 2019.03.30 at 20h 54m 47s.xml">
+      <configuration name="Test: ymx01.templatetags" configurationId="DjangoTestsConfigurationType" />
+    </history-entry>
+    <history-entry file="Test__ymx01_templatetags - 2019.03.30 at 20h 56m 06s.xml">
+      <configuration name="Test: ymx01.templatetags" configurationId="DjangoTestsConfigurationType" />
+    </history-entry>
+    <history-entry file="Test__ymx01_templatetags - 2019.03.30 at 21h 09m 02s.xml">
+      <configuration name="Test: ymx01.templatetags" configurationId="DjangoTestsConfigurationType" />
+    </history-entry>
+    <history-entry file="Test__ - 2019.05.21 at 20h 50m 07s.xml">
+      <configuration name="Test: " configurationId="DjangoTestsConfigurationType" />
+    </history-entry>
+    <history-entry file="Test__ - 2019.05.21 at 20h 51m 35s.xml">
+      <configuration name="Test: " configurationId="DjangoTestsConfigurationType" />
+    </history-entry>
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="513200000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <are-modules-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4977169" visible="true" weight="0.2857143" />
+      <window_info id="Structure" order="1" sideWeight="0.5022831" side_tool="true" weight="0.35719398" />
+      <window_info id="Favorites" order="2" sideWeight="0.50369006" side_tool="true" weight="0.35719398" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.35074627" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.579602" />
+      <window_info anchor="bottom" id="Cvs" order="3" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="4" weight="0.4" />
+      <window_info anchor="bottom" id="Debug" order="5" weight="0.37919825" />
+      <window_info anchor="bottom" id="Python Console" order="6" weight="0.18201517" />
+      <window_info anchor="bottom" id="TODO" order="7" weight="0.32502708" />
+      <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="9" />
+      <window_info anchor="bottom" id="Database Changes" order="10" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" weight="0.3289689" />
+      <window_info anchor="bottom" id="Terminal" order="12" weight="0.4084507" />
+      <window_info anchor="bottom" id="Database Console" order="13" weight="0.32936078" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Database" order="3" weight="0.32889125" />
+      <window_info anchor="right" id="SciView" order="4" weight="0.3297587" />
+    </layout>
+    <layout-to-restore>
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4977169" visible="true" weight="0.2857143" />
+      <window_info id="Structure" order="1" sideWeight="0.5022831" side_tool="true" weight="0.35719398" />
+      <window_info id="Favorites" order="2" sideWeight="0.50369006" side_tool="true" weight="0.35719398" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.35074627" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.579602" />
+      <window_info anchor="bottom" id="Cvs" order="3" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="4" weight="0.4" />
+      <window_info anchor="bottom" id="Debug" order="5" weight="0.37919825" />
+      <window_info anchor="bottom" id="Python Console" order="6" weight="0.18201517" />
+      <window_info anchor="bottom" id="TODO" order="7" weight="0.32502708" />
+      <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="9" />
+      <window_info anchor="bottom" id="Database Changes" order="10" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" weight="0.3289689" />
+      <window_info anchor="bottom" id="Terminal" order="12" weight="0.4084507" />
+      <window_info anchor="bottom" id="Database Console" order="13" weight="0.32936078" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Database" order="3" weight="0.32889125" />
+      <window_info anchor="right" id="SciView" order="4" weight="0.3297587" />
+    </layout-to-restore>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/extra_apps/xadmin/plugins/export.py</url>
+          <line>125</line>
+          <option name="timeStamp" value="21" />
+        </line-breakpoint>
+      </breakpoints>
+      <default-breakpoints>
+        <breakpoint type="python-exception">
+          <properties notifyOnTerminate="true" exception="BaseException">
+            <option name="notifyOnTerminate" value="true" />
+          </properties>
+        </breakpoint>
+      </default-breakpoints>
+    </breakpoint-manager>
+    <watches-manager>
+      <configuration name="Python.DjangoServer">
+        <watch expression="self" />
+        <watch expression="self.apps_label_title" />
+        <watch expression="self.field" />
+      </configuration>
+    </watches-manager>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/AmzCOM$Test__.coverage" NAME="Test:  Coverage Results" MODIFIED="1558443091672" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/AmzCOM$tests.coverage" NAME="tests Coverage Results" MODIFIED="1559121020638" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ymx01" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/templates/ymx01/product_list.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/ymx01/product_view_template.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="69">
+          <caret line="3" column="46" selection-start-line="3" selection-start-column="46" selection-end-line="3" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/ymx01/product_view_list.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="161">
+          <caret line="53" column="134" selection-start-line="53" selection-start-column="118" selection-end-line="53" selection-end-column="134" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ymx01/templatetags/product_tags.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="980">
+          <caret line="85" column="19" selection-start-line="85" selection-start-column="19" selection-end-line="85" selection-end-column="19" />
+          <folding>
+            <element signature="e#41#65#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/ymx01/product_detail_template.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="92">
+          <caret line="4" column="26" selection-start-line="4" selection-start-column="26" selection-end-line="4" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ymx01/views/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="299">
+          <caret line="31" column="21" selection-start-line="31" selection-start-column="15" selection-end-line="31" selection-end-column="21" />
+          <folding>
+            <element signature="e#0#67#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/extra_apps/xadmin/plugins/filters.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="594">
+          <caret line="240" column="27" selection-start-line="240" selection-start-column="21" selection-end-line="240" selection-end-column="27" />
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/extra_apps/xadmin/templates/xadmin/excel/model_list.top_toolbar.import.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="69">
+          <caret line="3" column="61" lean-forward="true" selection-start-line="3" selection-start-column="61" selection-end-line="3" selection-end-column="61" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/extra_apps/xadmin/layout.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1867">
+          <folding>
+            <element signature="e#0#42#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ymx01/admin.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2411">
+          <caret line="110" column="34" selection-start-line="110" selection-start-column="34" selection-end-line="110" selection-end-column="34" />
+          <folding>
+            <element signature="e#0#32#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/extra_apps/xadmin/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-326">
+          <caret line="87" column="6" selection-start-line="87" selection-start-column="6" selection-end-line="87" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/extra_apps/xadmin/plugins/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="713">
+          <caret line="31" column="12" selection-start-line="31" selection-start-column="12" selection-end-line="31" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/extra_apps/xadmin/plugins/refresh.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="322">
+          <caret line="18" column="20" selection-start-line="18" selection-start-column="15" selection-end-line="18" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/extra_apps/xadmin/plugins/inline.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-3933">
+          <folding>
+            <element signature="e#0#11#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/extra_apps/xadmin/plugins/chart.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/extra_apps/xadmin/plugins/bookmark.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-3077" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/extra_apps/xadmin/views/list.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-6141">
+          <folding>
+            <element signature="e#0#38#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/extra_apps/xadmin/plugins/excel.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="368">
+          <caret line="16" column="38" lean-forward="true" selection-start-line="16" selection-start-column="38" selection-end-line="16" selection-end-column="38" />
+          <folding>
+            <element signature="e#73#86#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ymx01/resources.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="92">
+          <caret line="4" column="17" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
+          <folding>
+            <element signature="e#15#50#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/order/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/order/migrations/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ymx01/migrations/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/fc637cbf-1a4e-49ac-81ea-6a9ecc75d736/console.sql">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/76ff3c4b-cd0f-4c24-a683-04e3b2bb11c7/console.sql">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/78d916bb-b99c-4ebb-aa9c-9ebdedbf856b/console.sql">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/f9eacb4c-37fc-4791-9d14-998359b9c7b9/console.sql">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="das://848db116-edcb-46b2-b50b-899293572661/schema/main/table/order_order">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ymx01/adminx.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2369">
+          <caret line="103" column="5" lean-forward="true" selection-start-line="103" selection-start-column="5" selection-end-line="103" selection-end-column="5" />
+          <folding>
+            <element signature="e#0#13#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/extra_apps/xadmin/adminx.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="851">
+          <caret line="40" selection-start-line="40" selection-end-line="40" />
+          <folding>
+            <element signature="e#0#38#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ymx01/apps.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="115">
+          <caret line="5" column="4" selection-start-line="5" selection-start-column="4" selection-end-line="5" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/extra_apps/xadmin/templates/xadmin/blocks/model_list.top_toolbar.importexport.import.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="69">
+          <caret line="3" column="63" selection-start-line="3" selection-start-column="57" selection-end-line="3" selection-end-column="63" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/extra_apps/xadmin/templates/xadmin/blocks/model_list.top_toolbar.importexport.export.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="488">
+          <caret line="27" column="80" selection-start-line="27" selection-start-column="71" selection-end-line="27" selection-end-column="80" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/extra_apps/xadmin/templates/xadmin/blocks/model_list.top_toolbar.exports.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-110" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../Python37/Lib/site-packages/django/templatetags/i18n.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-461">
+          <caret line="316" column="4" selection-start-line="316" selection-start-column="4" selection-end-line="316" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/import_export/action_formats.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/order/adminx.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="8" column="23" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="23" />
+          <folding>
+            <element signature="e#0#13#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/extra_apps/xadmin/templates/xadmin/import_export/export_action.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/extra_apps/xadmin/sites.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="759">
+          <caret line="299" selection-start-line="299" selection-end-line="299" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/order/apps.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="115">
+          <caret line="5" column="25" selection-start-line="5" selection-start-column="25" selection-end-line="5" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/extra_apps/xadmin/plugins/export.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="824">
+          <caret line="140" column="58" selection-start-line="140" selection-start-column="58" selection-end-line="140" selection-end-column="58" />
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/extra_apps/xadmin/views/base.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="298">
+          <caret line="313" column="8" selection-start-line="313" selection-start-column="8" selection-end-line="313" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../Python37/Lib/site-packages/import_export/results.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="181">
+          <caret line="40" column="42" selection-start-line="40" selection-start-column="42" selection-end-line="40" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../Python37/Lib/site-packages/import_export/resources.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="258">
+          <caret line="525" column="59" selection-start-line="525" selection-start-column="59" selection-end-line="525" selection-end-column="59" />
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/extra_apps/xadmin/plugins/importexport.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="65">
+          <caret line="239" selection-start-line="239" selection-end-line="239" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/extra_apps/xadmin/templates/xadmin/import_export/import.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="709">
+          <caret line="119" column="13" selection-start-line="119" selection-start-column="13" selection-end-line="119" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.PyCharm2018.3/system/python_stubs/-1972505942/builtins.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-95">
+          <caret line="5192" column="17" selection-start-line="5192" selection-start-column="15" selection-end-line="5192" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../Python37/Lib/site-packages/django/utils/encoding.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="314">
+          <caret line="66" column="17" lean-forward="true" selection-start-line="66" selection-start-column="17" selection-end-line="66" selection-end-column="17" />
+          <folding>
+            <element signature="e#0#13#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ymx01/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="451">
+          <caret line="163" column="22" lean-forward="true" selection-start-line="163" selection-start-column="22" selection-end-line="163" selection-end-column="23" />
+          <folding>
+            <element signature="e#0#28#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/order/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="433">
+          <caret line="32" column="98" lean-forward="true" selection-start-line="32" selection-start-column="98" selection-end-line="32" selection-end-column="98" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AmzCOM/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="244">
+          <caret line="129" column="38" lean-forward="true" selection-start-line="129" selection-start-column="38" selection-end-line="129" selection-end-column="38" />
+          <folding>
+            <element signature="e#307#316#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/order/resources.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="203">
+          <caret line="15" column="38" lean-forward="true" selection-start-line="15" selection-start-column="38" selection-end-line="15" selection-end-column="38" />
+          <folding>
+            <element signature="e#15#50#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ScopeChooserConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.14184397" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

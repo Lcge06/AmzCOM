@@ -1,0 +1,14 @@
+{% load product_tags %}
+<div class="col-md-2">
+    <div>
+        <a class="thumbnail" href="{% get_detail_path table_obj %}detail/{{ product.id }}/">
+            {% load_main_img product %}
+            {#            <img style="width: 100px;height: 150px" src="/static/img/swimwear/{{ product.sellerSku }}/{{ product.sellerSku }}' '(1).jpg">#}
+        </a>
+    </div>
+
+    <p class="text-center">
+        {{ product.productName }}
+    </p>
+
+</div>

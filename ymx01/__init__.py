@@ -1,0 +1,1 @@
+default_app_config='ymx01.apps.Ymx01Config'
